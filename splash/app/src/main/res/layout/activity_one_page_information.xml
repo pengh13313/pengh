@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/oconstrain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shilh.splash.OnePageInformationActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlewhite">
+
+        <Button
+            android:id="@+id/oback"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/oname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路径名：" />
+
+    <TextView
+        android:id="@+id/otime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间：" />
+
+    <TextView
+        android:id="@+id/otype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备型号 ：" />
+
+    <TextView
+        android:id="@+id/osize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="白平衡：" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/length"
+        android:text="长："/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/width"
+        android:text="宽："/>
+</LinearLayout>

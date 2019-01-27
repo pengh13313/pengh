@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/recycle_photo">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/bt_map"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="上海市浦东区环科路"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="right|top"
+        android:layout_above="@id/recycle_photo"/>
+</FrameLayout>
